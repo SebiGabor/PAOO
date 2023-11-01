@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.cpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.cpp
+

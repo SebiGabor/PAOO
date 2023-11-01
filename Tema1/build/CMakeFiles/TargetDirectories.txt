@@ -1,0 +1,4 @@
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/mutations.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/lib.dir

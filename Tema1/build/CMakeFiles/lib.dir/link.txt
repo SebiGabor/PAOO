@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib.a  CMakeFiles/lib.dir/src/DNA.cpp.o CMakeFiles/lib.dir/src/Population.cpp.o
+/usr/bin/ranlib liblib.a
