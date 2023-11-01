@@ -7,14 +7,20 @@
 #IncludeRegexTransform: 
 
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
-
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
-
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/main.cpp
-DNA.hpp
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
-Population.hpp
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
 iostream
 -
+cstring
+-
+cstdlib
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
+vector
+-
+DNA.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/main.cpp
+Population.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
 

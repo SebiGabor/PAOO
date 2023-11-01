@@ -7,6 +7,24 @@
 #IncludeRegexTransform: 
 
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.cpp
+DNA.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
+iostream
+-
+cstring
+-
+cstdlib
+-
 
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.cpp
+Population.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.hpp
+vector
+-
+DNA.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.hpp
 
