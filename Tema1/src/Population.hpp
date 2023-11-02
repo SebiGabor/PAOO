@@ -13,6 +13,9 @@ private:
     double mutationRate;
 
 public:
+    // Constructor default
+    Population();
+
     // Constructor cu o secventa target, lungime, rata de mutatie si dimensiunea populatiei
     Population(const char* _target, int length, double rate, int size);
 
@@ -21,6 +24,9 @@ public:
 
     // Copy constructor
     Population(const Population& other);
+
+    // Suprascriere operator de atribuire
+    Population& operator=(const Population& other);
 
     // Evalueaza fitness-ul tuturor secventelor ADN din populatie
     void evaluate();
@@ -41,7 +47,7 @@ public:
     const char* getDNAForBestFitness() const;
 
     // Afiseaza toate secventele ADN din populatie
-    void printAllData() const;
+    void printAllData(std::ostream& output) const;
 };
 
 #endif

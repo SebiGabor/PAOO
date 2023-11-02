@@ -1,5 +1,9 @@
 #include "Population.hpp"
 
+Population::Population()
+    : target(nullptr), targetLength(0), mutationRate(0.0), populationSize(0), population(NULL) {
+}
+
 Population::Population(const char* _target, int length, double rate, int size)
     : target(_target), targetLength(length), mutationRate(rate), populationSize(size) {
     for (int i = 0; i < populationSize; i++) {
@@ -22,6 +26,24 @@ Population::Population(const Population& other)
     for (const DNA& dna : other.population) {
         population.push_back(dna);
     }
+}
+
+Population& Population::operator=(const Population& other) {
+    if (this == &other) {
+        return *this;
+    }
+
+    target = other.target;
+    targetLength = other.targetLength;
+    mutationRate = other.mutationRate;
+    populationSize = other.populationSize;
+
+    population.clear();
+    for (const DNA& dna : other.population) {
+        population.push_back(dna);
+    }
+
+    return *this;
 }
 
 void Population::evaluate() {
@@ -92,9 +114,9 @@ const char* Population::getDNAForBestFitness() const {
     return bestDNA->getSequence();
 }
 
-void Population::printAllData() const {
+void Population::printAllData(std::ostream& output) const {
     for (const DNA& dna : population) {
-        std::cout << dna.getSequence() << " ";
+        output << dna.getSequence() << " ";
     }
-    std::cout << "\n";
+    output << "\n";
 }

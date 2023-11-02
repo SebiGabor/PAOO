@@ -12,7 +12,7 @@ private:
     int length;
 
 public:
-    // Constructor implicit
+    // Constructor default
     DNA();
 
     // Constructor cu lungime specificata
