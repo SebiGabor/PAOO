@@ -1,0 +1,6 @@
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/CMakeFiles/sequences.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/src/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/src/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/build/src/CMakeFiles/src.dir

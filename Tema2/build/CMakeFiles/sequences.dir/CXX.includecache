@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/DNASequence.hpp
+GeneticSequence.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/GeneticSequence.hpp
+string
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/GeneticSequence.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/ProteinSequence.hpp
+GeneticSequence.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/GeneticSequence.hpp
+string
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/main.cpp
+DNASequence.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/DNASequence.hpp
+ProteinSequence.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/ProteinSequence.hpp
+vector
+-
+memory
+-
+

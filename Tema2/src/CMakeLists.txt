@@ -1,0 +1,1 @@
+add_library(src STATIC DNASequence.cpp ProteinSequence.cpp main.cpp)
