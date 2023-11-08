@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.cpp" "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/lib.dir/src/DNA.cpp.o"
-  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.cpp" "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/lib.dir/src/Population.cpp.o"
+  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/DNA.cpp" "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/src/CMakeFiles/src.dir/DNA.cpp.o"
+  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/Population.cpp" "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/src/CMakeFiles/src.dir/Population.cpp.o"
+  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/src/main.cpp" "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/src/CMakeFiles/src.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

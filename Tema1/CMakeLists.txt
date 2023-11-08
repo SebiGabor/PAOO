@@ -15,12 +15,10 @@ else()
     endif()    
 endif()
 
-set(myfiles src/DNA.cpp src/DNA.hpp src/Population.cpp src/Population.hpp)
-
-add_library(lib STATIC ${myfiles})
+add_subdirectory(src)
 
 add_executable(${myproject} src/main.cpp)
 
-target_link_libraries(${myproject} PUBLIC lib)
+target_link_libraries(${myproject} PUBLIC src)
 
-target_include_directories(${myproject} PRIVATE src)
+target_include_directories(${myproject} PUBLIC "${PROJECT_SOURCE_DIR}/src")

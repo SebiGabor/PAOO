@@ -1,0 +1,1 @@
+add_library(src STATIC DNA.cpp Population.cpp main.cpp)

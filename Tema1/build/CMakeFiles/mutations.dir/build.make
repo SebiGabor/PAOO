@@ -79,7 +79,7 @@ mutations_EXTERNAL_OBJECTS =
 
 mutations: CMakeFiles/mutations.dir/src/main.cpp.o
 mutations: CMakeFiles/mutations.dir/build.make
-mutations: liblib.a
+mutations: src/libsrc.a
 mutations: CMakeFiles/mutations.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mutations"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mutations.dir/link.txt --verbose=$(VERBOSE)

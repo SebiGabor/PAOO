@@ -54,34 +54,52 @@ CMAKE_BINARY_DIR = /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build
 
 # The main recursive "all" target.
 all: CMakeFiles/mutations.dir/all
-all: CMakeFiles/lib.dir/all
+all: src/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/mutations.dir/clean
-clean: CMakeFiles/lib.dir/clean
+clean: src/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/src.dir/all
+
+.PHONY : src/all
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/src.dir/clean
+
+.PHONY : src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/mutations.dir
 
 # All Build rule for target.
-CMakeFiles/mutations.dir/all: CMakeFiles/lib.dir/all
+CMakeFiles/mutations.dir/all: src/CMakeFiles/src.dir/all
 	$(MAKE) -f CMakeFiles/mutations.dir/build.make CMakeFiles/mutations.dir/depend
 	$(MAKE) -f CMakeFiles/mutations.dir/build.make CMakeFiles/mutations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles --progress-num=4,5 "Built target mutations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles --progress-num=1,2 "Built target mutations"
 .PHONY : CMakeFiles/mutations.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mutations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mutations.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 0
 .PHONY : CMakeFiles/mutations.dir/rule
@@ -97,31 +115,31 @@ CMakeFiles/mutations.dir/clean:
 .PHONY : CMakeFiles/mutations.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/lib.dir
+# Target rules for target src/CMakeFiles/src.dir
 
 # All Build rule for target.
-CMakeFiles/lib.dir/all:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/depend
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles --progress-num=1,2,3 "Built target lib"
-.PHONY : CMakeFiles/lib.dir/all
+src/CMakeFiles/src.dir/all:
+	$(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/depend
+	$(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles --progress-num=3,4,5,6 "Built target src"
+.PHONY : src/CMakeFiles/src.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lib.dir/all
+src/CMakeFiles/src.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/src.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles 0
-.PHONY : CMakeFiles/lib.dir/rule
+.PHONY : src/CMakeFiles/src.dir/rule
 
 # Convenience name for target.
-lib: CMakeFiles/lib.dir/rule
+src: src/CMakeFiles/src.dir/rule
 
-.PHONY : lib
+.PHONY : src
 
 # clean rule for target.
-CMakeFiles/lib.dir/clean:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/clean
-.PHONY : CMakeFiles/lib.dir/clean
+src/CMakeFiles/src.dir/clean:
+	$(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/clean
+.PHONY : src/CMakeFiles/src.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -124,71 +124,17 @@ mutations/fast:
 .PHONY : mutations/fast
 
 #=============================================================================
-# Target rules for targets named lib
+# Target rules for targets named src
 
 # Build rule for target.
-lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lib
-.PHONY : lib
+src: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src
+.PHONY : src
 
 # fast build rule for target.
-lib/fast:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
-.PHONY : lib/fast
-
-src/DNA.o: src/DNA.cpp.o
-
-.PHONY : src/DNA.o
-
-# target to build an object file
-src/DNA.cpp.o:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DNA.cpp.o
-.PHONY : src/DNA.cpp.o
-
-src/DNA.i: src/DNA.cpp.i
-
-.PHONY : src/DNA.i
-
-# target to preprocess a source file
-src/DNA.cpp.i:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DNA.cpp.i
-.PHONY : src/DNA.cpp.i
-
-src/DNA.s: src/DNA.cpp.s
-
-.PHONY : src/DNA.s
-
-# target to generate assembly for a file
-src/DNA.cpp.s:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DNA.cpp.s
-.PHONY : src/DNA.cpp.s
-
-src/Population.o: src/Population.cpp.o
-
-.PHONY : src/Population.o
-
-# target to build an object file
-src/Population.cpp.o:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Population.cpp.o
-.PHONY : src/Population.cpp.o
-
-src/Population.i: src/Population.cpp.i
-
-.PHONY : src/Population.i
-
-# target to preprocess a source file
-src/Population.cpp.i:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Population.cpp.i
-.PHONY : src/Population.cpp.i
-
-src/Population.s: src/Population.cpp.s
-
-.PHONY : src/Population.s
-
-# target to generate assembly for a file
-src/Population.cpp.s:
-	$(MAKE) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Population.cpp.s
-.PHONY : src/Population.cpp.s
+src/fast:
+	$(MAKE) -f src/CMakeFiles/src.dir/build.make src/CMakeFiles/src.dir/build
+.PHONY : src/fast
 
 src/main.o: src/main.cpp.o
 
@@ -226,13 +172,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mutations"
-	@echo "... lib"
-	@echo "... src/DNA.o"
-	@echo "... src/DNA.i"
-	@echo "... src/DNA.s"
-	@echo "... src/Population.o"
-	@echo "... src/Population.i"
-	@echo "... src/Population.s"
+	@echo "... src"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

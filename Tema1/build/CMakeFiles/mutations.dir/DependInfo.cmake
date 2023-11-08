@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/CMakeFiles/lib.dir/DependInfo.cmake"
+  "/home/sebi/Desktop/PAOO/Teme/PAOO/Tema1/build/src/CMakeFiles/src.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
