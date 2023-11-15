@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Generator/DNASequenceGenerator.cpp
+DNASequenceGenerator.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Generator/DNASequenceGenerator.hpp
+random
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Generator/DNASequenceGenerator.hpp
+string
+-
+

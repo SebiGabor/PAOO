@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/alignament.dir/main.cpp.o  -o alignament  Analyzer/libAnalyzer.a Generator/libGenerator.a Converter/libConverter.a 

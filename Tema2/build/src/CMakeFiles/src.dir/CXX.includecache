@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/DNASequence.cpp
-DNASequence.hpp
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/DNASequence.hpp
-iostream
--
-
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/DNASequence.hpp
 GeneticSequence.hpp
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/GeneticSequence.hpp
@@ -19,12 +13,6 @@ string
 -
 
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/GeneticSequence.hpp
-
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/ProteinSequence.cpp
-ProteinSequence.hpp
-/home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/ProteinSequence.hpp
-iostream
--
 
 /home/sebi/Desktop/PAOO/Teme/PAOO/Tema2/src/ProteinSequence.hpp
 GeneticSequence.hpp

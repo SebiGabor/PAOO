@@ -1,0 +1,15 @@
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/CMakeFiles/alignament.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/CMakeFiles/src.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Analyzer/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Analyzer/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Analyzer/CMakeFiles/Analyzer.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Converter/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Converter/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Converter/CMakeFiles/Converter.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Generator/CMakeFiles/edit_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Generator/CMakeFiles/rebuild_cache.dir
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/build/src/Generator/CMakeFiles/Generator.dir

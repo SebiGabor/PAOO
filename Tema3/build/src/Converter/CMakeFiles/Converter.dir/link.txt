@@ -1,0 +1,2 @@
+/usr/bin/ar qc libConverter.a  CMakeFiles/Converter.dir/DNAConverter.cpp.o
+/usr/bin/ranlib libConverter.a

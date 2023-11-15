@@ -11,7 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "../src/Analyzer/CMakeLists.txt"
   "../src/CMakeLists.txt"
+  "../src/Converter/CMakeLists.txt"
+  "../src/Generator/CMakeLists.txt"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -43,10 +46,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Analyzer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Converter/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Generator/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/sequences.dir/DependInfo.cmake"
+  "CMakeFiles/alignament.dir/DependInfo.cmake"
   "src/CMakeFiles/src.dir/DependInfo.cmake"
+  "src/Analyzer/CMakeFiles/Analyzer.dir/DependInfo.cmake"
+  "src/Converter/CMakeFiles/Converter.dir/DependInfo.cmake"
+  "src/Generator/CMakeFiles/Generator.dir/DependInfo.cmake"
   )

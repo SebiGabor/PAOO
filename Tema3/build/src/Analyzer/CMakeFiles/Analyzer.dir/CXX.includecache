@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Analyzer/SequenceAnalyzer.cpp
+SequenceAnalyzer.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Analyzer/SequenceAnalyzer.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Analyzer/SequenceAnalyzer.hpp
+iostream
+-
+vector
+-
+algorithm
+-
+memory
+-
+

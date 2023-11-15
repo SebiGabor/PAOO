@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Analyzer/SequenceAnalyzer.hpp
+iostream
+-
+vector
+-
+algorithm
+-
+memory
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Converter/DNAConverter.hpp
+string
+-
+vector
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Generator/DNASequenceGenerator.hpp
+string
+-
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+memory
+-
+Converter/DNAConverter.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Converter/DNAConverter.hpp
+Generator/DNASequenceGenerator.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Generator/DNASequenceGenerator.hpp
+Analyzer/SequenceAnalyzer.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Analyzer/SequenceAnalyzer.hpp
+

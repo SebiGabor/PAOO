@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Converter/DNAConverter.cpp
+DNAConverter.hpp
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Converter/DNAConverter.hpp
+
+/home/sebi/Desktop/PAOO/Teme/PAOO/Tema3/src/Converter/DNAConverter.hpp
+string
+-
+vector
+-
+

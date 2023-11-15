@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGenerator.a  CMakeFiles/Generator.dir/DNASequenceGenerator.cpp.o
+/usr/bin/ranlib libGenerator.a
